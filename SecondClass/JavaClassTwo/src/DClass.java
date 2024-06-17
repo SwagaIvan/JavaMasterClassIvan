@@ -8,13 +8,13 @@ public class DClass {
             System.out.println("It's not an Alien!");
             System.out.println("And Am scared of Alien");
         }
-int topScores = 80;
-        if (topScores < 100) {
+int topScore = 80;
+        if (topScore < 100) {
             System.out.println("You have got the highest score");
         }
 
         int secondTopScore = 60;
-        if ( (topScores > secondTopScore) && (topScores < 100)) {
+        if ( (topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than secondTopScore but less than 100");
         }
 
