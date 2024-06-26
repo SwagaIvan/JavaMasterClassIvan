@@ -18,7 +18,7 @@ int topScore = 80;
             System.out.println("Greater than secondTopScore but less than 100");
         }
 
-        if ((topScores > 80)|| (secondTopScore <= 80)) {
+        if ((topScore > 80)|| (secondTopScore <= 80)) {
             System.out.println("Either or both of the conditions is true");
 
         }
